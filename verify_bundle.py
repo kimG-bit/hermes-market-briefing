@@ -18,7 +18,7 @@ ROBOTS = b'User-agent: *\nDisallow: /\n'
 
 
 def valid_market_id(value):
-    if not isinstance(value, str) or not re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}-(AM|PM)', value):
+    if not isinstance(value, str) or not re.fullmatch(r'[0-9]{4}-[0-9]{2}-[0-9]{2}-(AM|PM)(?:-SPECIAL)?', value):
         return False
     try:
         date.fromisoformat(value[:10])
@@ -28,7 +28,8 @@ def valid_market_id(value):
 
 
 def market_order(issue):
-    return (issue[:10], issue[-2:] == 'PM')
+    # 같은 slot에서는 정기판 다음 특별판, PM은 모든 AM보다 뒤다.
+    return (issue[:10], issue[11:13] == 'PM', issue.endswith('-SPECIAL'))
 
 
 def market_entry_files(entry):
@@ -668,7 +669,7 @@ def validate_contract(approved, *, legacy=False):
 def release_url(approved):
     validate_contract(approved)
     tag, asset = approved['release_tag'], approved['asset']
-    if not re.fullmatch(r'(?:[0-9]{4}-W[0-9]{2}|[0-9]{4}-[0-9]{2}-[0-9]{2}-(?:AM|PM))-r[1-9][0-9]*-[a-f0-9]{12}', tag) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,120}\.zip', asset):
+    if not re.fullmatch(r'(?:[0-9]{4}-W[0-9]{2}|[0-9]{4}-[0-9]{2}-[0-9]{2}-(?:AM|PM)(?:-SPECIAL)?)-r[1-9][0-9]*-[a-f0-9]{12}', tag) or not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9._-]{0,120}\.zip', asset):
         raise ValueError('Invalid approved release selector')
     issue = tag.rsplit('-r', 1)[0]
     if approved['schema_version'] == MARKET_SCHEMA:
