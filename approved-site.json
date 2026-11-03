@@ -1,8 +1,8 @@
 {
   "archive": {
-    "bytes": 105796,
+    "bytes": 124529,
     "file": "site.zip",
-    "sha256": "a51530d1eed7a8af1a2f15f44982212eac34f4af7a0a37f86f75e590f2429464"
+    "sha256": "aa07fe8a069c7f2a4725755b5ce019073a079eaa345ec7e251ef2a27ceb4342e"
   },
   "asset": "site.zip",
   "entries": {
@@ -66,6 +66,13 @@
       "build_id": "d5a7889e0c696858d8e2dfe4dea85bc5938d18159bdfc3899cb8388409a227be",
       "issue_id": "2026-11-03-AM",
       "path": "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-03-AM",
+      "presentation": "html-v1",
+      "revision": 1
+    },
+    "2026-11-03-PM": {
+      "build_id": "4f081cafb88b828c77151e75c23ac09388fbd72a9f819dfc8f02d86433391442",
+      "issue_id": "2026-11-03-PM",
+      "path": "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-03-PM",
       "presentation": "html-v1",
       "revision": 1
     }
@@ -147,17 +154,25 @@
       "bytes": 4672,
       "sha256": "8c9ae799291c999d374a5676ffb54ffe43aad8700c9f24e96d0709fc26625ac8"
     },
+    "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-03-PM/index.html": {
+      "bytes": 52621,
+      "sha256": "b91e6fa151ae042279b07ad73a3145156b33dca35d81dd20151a811cf671194f"
+    },
+    "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-03-PM/style.css": {
+      "bytes": 4672,
+      "sha256": "8c9ae799291c999d374a5676ffb54ffe43aad8700c9f24e96d0709fc26625ac8"
+    },
     "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/archive/index.html": {
-      "bytes": 1031,
-      "sha256": "bac3209d84021746ca818e5fdfaae11c8fdcf6432428b973208dda7399f26ba3"
+      "bytes": 1083,
+      "sha256": "202ba2ce8cc2790a1859069ea18376ec6dc9db611b7dcb167a483be09eb72f24"
     },
     "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/index.html": {
-      "bytes": 1004,
-      "sha256": "ea4737c707d72be50cb50d57fdcc1fa2c6dcfb4c5767f5391d794f92ba73bd52"
+      "bytes": 1053,
+      "sha256": "fc155edd0ead31a3fff9bfd5db1ff000b3747db482c422adb848afae955c533e"
     },
     "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/latest/index.html": {
       "bytes": 599,
-      "sha256": "93873be781d36b263d1217d63a12c8ce069284c2574c1f5146bc9343888bc290"
+      "sha256": "a1c0daf8edb7f5e0732299d0d4a21d6139a972950d0c6fb174b85c0edb8b4949"
     },
     "index.html": {
       "bytes": 498,
@@ -169,7 +184,7 @@
     }
   },
   "path_prefix": "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/",
-  "release_tag": "2026-11-03-AM-r1-eb67662bf218",
+  "release_tag": "2026-11-03-PM-r1-5112f9f5fc40",
   "retention": {
     "editions": 10
   },
