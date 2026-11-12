@@ -1,18 +1,11 @@
 {
   "archive": {
-    "bytes": 189125,
+    "bytes": 197427,
     "file": "site.zip",
-    "sha256": "fbd18e7bca3738993d033d345deb4c3648ac1590c9110b2928baebc2d130a8dd"
+    "sha256": "5b761c32d3c601b8fe3bfa8cd07a08d53344b3b1b66bba3eb6b59a0efe52dfc5"
   },
   "asset": "site.zip",
   "entries": {
-    "2026-11-03-PM": {
-      "build_id": "4f081cafb88b828c77151e75c23ac09388fbd72a9f819dfc8f02d86433391442",
-      "issue_id": "2026-11-03-PM",
-      "path": "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-03-PM",
-      "presentation": "html-v1",
-      "revision": 1
-    },
     "2026-11-04-AM": {
       "build_id": "4a25479c13b71a0a365525c3e7475966fc37042c7f8775c0daeaf3485997643d",
       "issue_id": "2026-11-04-AM",
@@ -75,20 +68,19 @@
       "path": "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-12-PM",
       "presentation": "html-v1",
       "revision": 1
+    },
+    "2026-11-13-AM": {
+      "build_id": "fe19afab6ecd301d1f4f37aec604df382966110c77fe63f32eed0fee38eeb2b8",
+      "issue_id": "2026-11-13-AM",
+      "path": "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-13-AM",
+      "presentation": "html-v1",
+      "revision": 1
     }
   },
   "files": {
     "404.html": {
       "bytes": 519,
       "sha256": "0edc6e9b9850e70add0657de083f5132a2258e3569a7c55a0514b540c79fad9b"
-    },
-    "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-03-PM/index.html": {
-      "bytes": 52621,
-      "sha256": "b91e6fa151ae042279b07ad73a3145156b33dca35d81dd20151a811cf671194f"
-    },
-    "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-03-PM/style.css": {
-      "bytes": 4672,
-      "sha256": "8c9ae799291c999d374a5676ffb54ffe43aad8700c9f24e96d0709fc26625ac8"
     },
     "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-04-AM/index.html": {
       "bytes": 29797,
@@ -162,17 +154,25 @@
       "bytes": 6242,
       "sha256": "0e6bdf52be1c42a8b6aee80a3aeb8698f99433daf47b09936276ce37ad9eb8b1"
     },
+    "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-13-AM/index.html": {
+      "bytes": 81671,
+      "sha256": "db0284f891c1c6cd805bc7dff5815c1290f91e5f7f0333ea5c48260e89383730"
+    },
+    "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/2026-11-13-AM/style.css": {
+      "bytes": 6242,
+      "sha256": "0e6bdf52be1c42a8b6aee80a3aeb8698f99433daf47b09936276ce37ad9eb8b1"
+    },
     "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/archive/index.html": {
       "bytes": 1067,
-      "sha256": "6d60b18be6c4bd9d73d6d633b5007158e1ba46819929221edab590563ca8327a"
+      "sha256": "6d0d029c903c246ad4e70ea6e6915d767f54adf27b6698de891fd161c5be5e5d"
     },
     "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/index.html": {
       "bytes": 1037,
-      "sha256": "a78a34fd22e354703013781b7e2b4059844033a9e5f0c7fc74ef2f8ab2815284"
+      "sha256": "e4745586913ecfb79bbb64308a3c516588150188279d18abc1b9d9a0572bcda3"
     },
     "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/latest/index.html": {
       "bytes": 599,
-      "sha256": "34bdfb3c34e03b170a69b8698105590af25c4f25720bbfaa4a36777213a7f212"
+      "sha256": "497fa891c38625f94757f0c87e975630b03da9667e0bb8179d880499f33444d9"
     },
     "index.html": {
       "bytes": 498,
@@ -184,7 +184,7 @@
     }
   },
   "path_prefix": "_M3l5e2MAqysV9oAKjorrPKQEXY2xj0AEgrpl938TKU/",
-  "release_tag": "2026-11-12-PM-r1-14aabaf93201",
+  "release_tag": "2026-11-13-AM-r1-c39626702362",
   "retention": {
     "editions": 10
   },
